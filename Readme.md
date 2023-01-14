@@ -1,6 +1,6 @@
 # JS-Drum-Kit
 
-A drum kit using JS and Tailwind C
+A drum kit using vanilla JS and Tailwind CSS
 
 ## Run Locally
 
