@@ -19,3 +19,5 @@ npm start
 3) sounds - contains sounds used
 4) images - contains the image(s) used
 5) index.html - entry point
+6) package.json and package-lock.json - node configuration
+7) postcss.config.js and tailwind.config.js - tailwindcss configuration
