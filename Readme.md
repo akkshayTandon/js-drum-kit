@@ -21,3 +21,6 @@ npm start
 5) index.html - entry point
 6) package.json and package-lock.json - node configuration
 7) postcss.config.js and tailwind.config.js - tailwindcss configuration
+
+## Deployment
+view the project here - [JS-Drum-Kit](https://akkshaytandon-js-drum-kit.netlify.app/)
