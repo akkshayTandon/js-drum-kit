@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-fixed bg-cover" style="background-image: url(/images/background.jpg);">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>JS-Drum-kit</title>
+</head>
+
+<body>
+    <div
+        class="border-4 border-pink-500 min-h-screen grid grid-cols-3 2xl:grid-cols-9 gap-12 xl:gap-24 content-center ">
+        <div data-key="65" class="key a border-4 border-slate-900 grid grid-rows-2">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">A</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">clap</span>
+        </div>
+        <div data-key="83" class="key s border-4 border-slate-900 grid grid-rows-2">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">S</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">hithat</span>
+        </div>
+        <div data-key="68" class="key d border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">D</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">kick</span>
+        </div>
+        <div data-key="70" class="key f border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">F</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">openhat</span>
+        </div>
+        <div data-key="71" class="key g border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">G</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">boom</span>
+        </div>
+        <div data-key="72" class="key h border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">H</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">ride</span>
+        </div>
+        <div data-key="74" class="key j border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">J</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">snare</span>
+        </div>
+        <div data-key="75" class="key k border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">K</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">tom</span>
+        </div>
+        <div data-key="76" class="key l border-4 border-slate-900 grid grid-rows-2 ">
+            <kbd class="font-sans font-semibold text-center text-4xl text-yellow-600">L</kbd>
+            <span class="text-center tracking-wide text-xl text-black font-medium">tink</span>
+        </div>
+
+        <audio data-key="65" id="a" src="/sounds/clap.wav"></audio>
+        <audio data-key="83" id="s" src="/sounds/hihat.wav"></audio>
+        <audio data-key="68" id="d" src="/sounds/kick.wav"></audio>
+        <audio data-key="70" id="f" src="/sounds/openhat.wav"></audio>
+        <audio data-key="71" id="g" src="/sounds/boom.wav"></audio>
+        <audio data-key="72" id="h" src="/sounds/ride.wav"></audio>
+        <audio data-key="74" id="j" src="/sounds/snare.wav"></audio>
+        <audio data-key="75" id="k" src="/sounds/tom.wav"></audio>
+        <audio data-key="76" id="l" src="/sounds/tink.wav"></audio>
+    </div>
+    <script src="/scripts/index.js" type="module"></script>
+</body>
+
+</html>

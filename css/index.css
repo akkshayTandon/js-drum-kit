@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.effect {
+    @apply border-4 border-yellow-500 transition-all duration-300 ease-out scale-110;
+}
